@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/css/sign_up.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap" rel="stylesheet">
+    <title><%=title%></title>
+</head>
+<body>
+    <div class="background">
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+    
+
+    <form action="/users/create" method="post">
+        <h3>Sign Up</h3>
+    <label for="name">Name</label>
+    <input type="text" name="name" placeholder="Enter Name!" required>
+    <label for="email">Email</label>
+    <input type="email" name="email" placeholder="Enter Email" required>
+    <label for="password">Password</label>
+    <input type="password" name="password" placeholder="Enter Password" required>
+    <input type="password" name="confirm_password" placeholder="Confirm Password" required>
+    <input type="submit" value="Sign Up" id="submit">
+</form>
+</body>
+</html>
+
+
+<!DOCTYPE html>
+
