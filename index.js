@@ -13,9 +13,6 @@ app.use(express.urlencoded({extended:true})); //extended true for removing depre
 app.use(cookieParser());
 
 app.use(express.static('./assets'));//accessing static folder -- assets
-app.use('/css',express.static(__dirname + 'assets/css'))
-app.use('/js',express.static(__dirname + 'assets/js'))
-app.use('/img',express.static(__dirname + 'assets/img'))
 app.use(expressLayouts); // using express ejs layouts
 
 //extract styles and scripts from subpages into the layouts

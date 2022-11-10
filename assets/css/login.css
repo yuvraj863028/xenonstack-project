@@ -87,11 +87,11 @@ input{
 ::placeholder{
     color: #e5e5e5;
 }
-#button{
+#submit{
     margin-top: 50px;
     width: 100%;
-    background-color: #ffffff;
-    color: #080710;
+    background-color: #181321;
+    color: #fdfdfe;
     padding: 15px 0;
     font-size: 18px;
     font-weight: 600;
