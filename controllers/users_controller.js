@@ -30,6 +30,13 @@ module.exports.profile = function(req,res){
     }
 
 };
+//rendering the pages
+module.exports.profile1=function(req,res){
+    return res.render('profile1',{
+        title:"User Profile",
+                    
+    });
+}
 
 //rendering sign up page
 module.exports.signUp = function(req,res){
