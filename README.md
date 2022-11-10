@@ -27,11 +27,16 @@ Do following things before running the app
 then we go to the login page
         enter the command"[http://localhost:8000/users/login ] we will redirect to login page
         
-                        ![Screenshot (217)](https://user-images.githubusercontent.com/69396694/200986381-e19667ac-05e8-4217-8556-1c3ec2c29212.png)
+ ![Screenshot (217)](https://user-images.githubusercontent.com/69396694/200986381-e19667ac-05e8-4217-8556-1c3ec2c29212.png)
         
 enter the command"[http://localhost:8000/users/sign-Up ] we will redirect to login page
-                            
-                            ![Screenshot (219)](https://user-images.githubusercontent.com/69396694/200987474-cdbd42b0-7173-4207-b622-943017ec3db1.png) 
+  email:    test@example.com
+  password: qwerty
+  name:     hello
+  phone:    7887978728
+  address:  H.No.23, ABC block, Delhi, India 
+  
+   ![Screenshot (219)](https://user-images.githubusercontent.com/69396694/200987474-cdbd42b0-7173-4207-b622-943017ec3db1.png) 
                             
 >>the data retrieved my mongodb database of signed in user using ejs 
 
@@ -41,10 +46,10 @@ enter the command"[http://localhost:8000/users/sign-Up ] we will redirect to log
 
 after login to the page our page redirected to the profiles main landing page of the website like shopping websit
             we have created shopping website to create the templaating theme
-            ![Screenshot (216)](https://user-images.githubusercontent.com/69396694/200988068-40cda60c-a674-41ea-8a66-6a7b9f13fa81.png)
+   ![Screenshot (216)](https://user-images.githubusercontent.com/69396694/200988068-40cda60c-a674-41ea-8a66-6a7b9f13fa81.png)
             
             
-            ![Screenshot (215)](https://user-images.githubusercontent.com/69396694/200988103-58a8e06a-e544-48d2-a8c4-84e58c898c8e.png)
+   ![Screenshot (215)](https://user-images.githubusercontent.com/69396694/200988103-58a8e06a-e544-48d2-a8c4-84e58c898c8e.png)
    
    
  
